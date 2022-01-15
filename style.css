@@ -147,3 +147,20 @@ Product End */
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+
+/* Footer Strat */
+
+.footer-container{
+	    background-color: #120E43;
+    	text-align:center;
+        color: white;
+        padding: 20px;
+        padding-bottom: 20px;
+}
+
+
+.website-icon>span{
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
