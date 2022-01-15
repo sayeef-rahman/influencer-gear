@@ -79,6 +79,7 @@ Product Container Start
     margin-top: 70px;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 50px;
 }
 
 .product-container-header{
@@ -113,4 +114,36 @@ Product Container Start
 }
 .colored{
     color: #FB8200;
+}
+.see-more-button{
+    text-align: right;
+}
+.see-more-button>a{
+    text-decoration: none;
+    color: #E02C6D;
+}
+
+
+/* 
+Product End */
+
+.featured-img>img{
+    width: 250px;
+    height: 250px;
+}
+.featured-doc{
+    margin-left: 5%;
+}
+.featured-doc>h1{
+    font-size: 38px;
+}
+.featured-product{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
