@@ -75,6 +75,9 @@ body{
 /*--------------------
 Product Container Start
 -----------------------*/
+.product-info{
+    padding-left: 10px;
+}
 .product-container{
     margin-top: 70px;
     margin-left: 10%;
