@@ -6,3 +6,17 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+/* --------------------
+    Navigation Panel
+---------------------- */
+.nav-button > ul{
+    display: flex;
+}
+.nav-button>ul>li{
+    list-style: none;
+    padding-left: 10px;
+}
+.nav-button>ul>li>a{
+    text-decoration: none;
+}
