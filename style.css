@@ -16,7 +16,54 @@ body{
 .nav-button>ul>li{
     list-style: none;
     padding-left: 10px;
+    
 }
 .nav-button>ul>li>a{
     text-decoration: none;
+    color: #3A3A3A;
+    padding-left: 34px;
+}
+
+.nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    color: black;
+}
+.hero-button{
+    background-color: #E02C6D;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 29px;
+    width: 196px;
+    font-size: 16px;
+}
+.hero-button>a{
+    text-decoration: none;
+}
+
+.fa-arrow-right:before{
+    padding-left: 10px;
+}
+
+.hero-image{
+    width: 450px;
+    height: 450px;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 50px;
+}
+.hero-left-container{
+    width: 50%;
 }
