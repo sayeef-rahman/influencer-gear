@@ -95,6 +95,7 @@ Product Container Start
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgba(128, 128, 128, 0.199);
+    /* background-image: linear-gradient(to right, white, #D5D8DC ,white); */
 }
 .product-name, .product-price, .product-rating {
     margin: 0px;
