@@ -33,6 +33,10 @@ body{
     margin-right: 120px;
     color: black;
 }
+
+/* --------------------
+   Hero Section Start
+--------------------- */
 .hero-button{
     background-color: #E02C6D;
     color: white;
@@ -66,4 +70,38 @@ body{
 }
 .hero-left-container{
     width: 50%;
+}
+
+/*--------------------
+Product Container Start
+-----------------------*/
+.product-container-header{
+    text-align: center;
+}
+
+.product{
+    margin-top: 0px;
+}
+.product-name, .product-price, .product-rating {
+    margin: 0px;
+}
+.product-name{
+    font-size: 28px;
+}
+.product-price{
+    font-size: 24px;
+}
+.product-rating{
+    font-size: 15px;
+}
+.colored{
+    color: #FB8200;
+}
+
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-content: center;
 }
