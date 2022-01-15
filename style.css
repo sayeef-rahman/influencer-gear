@@ -164,3 +164,86 @@ Product End */
     margin-left: 10px; 
     margin-right: 10px; 
 }
+
+/* Brand Start */
+.brand-container{
+    margin-top: 60px;
+}
+.box-top{
+    height: 3px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: red;
+    background-image: linear-gradient(to right, white, #D5D8DC ,white);
+}
+.box-bottom{
+    height: 3px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: red;
+    background-image: linear-gradient(to right, white, #D5D8DC ,white);
+}
+
+.brands{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 70px;
+}
+
+.alibaba-logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 36px;
+    width: 74px;
+}
+.amazon-logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 29px;
+    width: 79px;
+}
+.daraz-logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 42px;
+    width: 59px;
+}
+.ebay-logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 39px;
+    width: 64px;
+}
+.rakuten-logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 39px;
+    width: 102px;
+}
+.target-logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 58px;
+    width: 105px;
+}
+.walmart-logo{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 55px;
+    width: 109px;
+}
