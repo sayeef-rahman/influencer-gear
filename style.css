@@ -75,12 +75,25 @@ body{
 /*--------------------
 Product Container Start
 -----------------------*/
+.product-container{
+    margin-top: 70px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 .product-container-header{
     text-align: center;
 }
+.products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
 
 .product{
-    margin-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.199);
 }
 .product-name, .product-price, .product-rating {
     margin: 0px;
@@ -94,14 +107,10 @@ Product Container Start
 .product-rating{
     font-size: 15px;
 }
+
+.product-note{
+    width:250px
+}
 .colored{
     color: #FB8200;
-}
-
-
-.products{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: center;
-    align-content: center;
 }
