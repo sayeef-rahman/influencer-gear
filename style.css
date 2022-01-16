@@ -98,6 +98,7 @@ Product Container Start
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: rgba(128, 128, 128, 0.199);
+    box-shadow: 0px 0px 20px 3px #a1a1a1;
     /* background-image: linear-gradient(to right, white, #D5D8DC ,white); */
 }
 .product-name, .product-price, .product-rating {
@@ -251,8 +252,16 @@ Product End */
 }
 
 /* Media Query Start */
-@media (max-width: 700px) {
-    .product-container{
-        background-image: black;
+@media only screen and (max-width: 688px) {
+    body{
+        width:688px;
+        margin-left: 5%;
+        margin-right: 5%;
     }
+        .logo{
+            align-items: center;
+        }
+        .nav-button-cart{
+            display: none;
+        }
 }
